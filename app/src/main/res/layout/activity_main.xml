@@ -56,17 +56,18 @@
                 />
 
             <EditText
-                android:id="@+id/editTextNumber"
+                android:id="@+id/edit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Podaj nr. prania 1...12"
                 android:inputType="number"
                 android:background="#87CEEB"
+                android:textColorHint="#000080"
                 android:textColor="#000080"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/zatwiedz"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Zatwierdź"
@@ -74,7 +75,7 @@
                 android:layout_margin="10dp"/>
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/nrPrania"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Numer prania: nie podano" />
@@ -111,14 +112,14 @@
                 android:text="Odkurzacz"
                 android:textSize="28dp"/>
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/wlacz"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Włącz"
                 android:backgroundTint="#4169E1"
                 android:layout_margin="10dp"/>
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/inf"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Odkurzacz wyłączony" />
